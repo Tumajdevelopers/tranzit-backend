@@ -1,0 +1,273 @@
+INFO 2025-04-08 00:43:50,056 views New user created: +254706400432
+INFO 2025-04-08 00:43:50,505 utils WhatsApp OTP sent to +254706400432: 190208
+INFO 2025-04-08 00:43:50,558 views OTP sent to +254706400432
+INFO 2025-04-08 00:44:19,504 views User +254706400432 verified successfully
+INFO 2025-04-08 00:55:17,541 views New user created: +254706400432
+INFO 2025-04-08 00:55:17,678 utils WhatsApp OTP sent to +254706400432: 167334
+INFO 2025-04-08 00:55:17,685 views OTP sent to +254706400432
+INFO 2025-04-08 00:55:33,631 views User +254706400432 verified successfully
+INFO 2025-04-08 00:55:47,984 views Profile updated for +254706400432
+INFO 2025-04-08 00:56:10,092 views Profile updated for +254706400432
+INFO 2025-04-08 00:59:34,128 views New user created: +254706400432
+INFO 2025-04-08 00:59:34,171 utils WhatsApp OTP sent to +254706400432: 761385
+INFO 2025-04-08 00:59:34,173 views OTP sent to +254706400432
+INFO 2025-04-08 00:59:44,923 views User +254706400432 verified successfully
+INFO 2025-04-08 00:59:59,455 views Profile updated for +254706400432
+INFO 2025-04-08 01:02:52,188 views New user created: +254706400432
+INFO 2025-04-08 01:02:52,287 utils WhatsApp OTP sent to +254706400432: 035998
+INFO 2025-04-08 01:02:52,287 views OTP sent to +254706400432
+INFO 2025-04-08 01:03:01,765 views User +254706400432 verified successfully
+INFO 2025-04-08 01:03:24,415 views Profile updated for +254706400432
+INFO 2025-04-08 01:03:29,103 views Profile updated for +254706400432
+INFO 2025-04-08 01:07:27,810 views New user created: +254706400432
+INFO 2025-04-08 01:07:27,856 utils WhatsApp OTP sent to +254706400432: 984793
+INFO 2025-04-08 01:07:27,857 views OTP sent to +254706400432
+INFO 2025-04-08 01:07:40,303 views User +254706400432 verified successfully
+INFO 2025-04-08 01:07:58,439 views Profile updated for +254706400432
+INFO 2025-04-08 01:08:01,287 views Profile updated for +254706400432
+INFO 2025-04-08 01:10:52,164 views Profile updated for +254706400432
+INFO 2025-04-08 01:17:56,180 views New user created: +254706400432
+INFO 2025-04-08 01:17:56,248 utils WhatsApp OTP sent to +254706400432: 666495
+INFO 2025-04-08 01:17:56,249 views OTP sent to +254706400432
+INFO 2025-04-08 01:18:05,153 views User +254706400432 verified successfully
+INFO 2025-04-08 01:18:20,555 views Profile updated for +254706400432
+INFO 2025-04-08 01:22:05,030 views Google Sign-In successful for verified user +254762038149
+ERROR 2025-04-08 01:23:00,959 exception Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 01:23:01,021 log Bad Request: /api/client/update
+INFO 2025-04-08 01:23:13,403 views Google Sign-In successful for verified user +254762038149
+INFO 2025-04-08 01:30:42,192 views New Google user created: njeri0162@gmail.com. Redirecting for phone entry.
+INFO 2025-04-08 01:30:57,162 utils WhatsApp OTP sent to +254762038149: 779289
+INFO 2025-04-08 01:30:57,164 views OTP sent to +254762038149 for Google user njeri0162@gmail.com
+INFO 2025-04-08 01:31:07,150 views User +254762038149 verified successfully
+WARNING 2025-04-08 01:32:48,359 log Not Found: /
+WARNING 2025-04-08 01:40:32,877 log Not Found: /
+ERROR 2025-04-08 02:02:27,190 exception Invalid HTTP_HOST header: 'www.lijohtechdevelopers.co.ke'. You may need to add 'www.lijohtechdevelopers.co.ke' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.lijohtechdevelopers.co.ke'. You may need to add 'www.lijohtechdevelopers.co.ke' to ALLOWED_HOSTS.
+WARNING 2025-04-08 02:02:27,432 log Bad Request: /
+WARNING 2025-04-08 02:20:29,120 log Not Found: /
+ERROR 2025-04-08 02:40:16,358 exception Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 02:40:16,476 log Bad Request: /
+WARNING 2025-04-08 03:05:03,670 log Not Found: /
+ERROR 2025-04-08 03:55:48,470 exception Invalid HTTP_HOST header: 'tumaj-api.medicore360.icu'. You may need to add 'tumaj-api.medicore360.icu' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'tumaj-api.medicore360.icu'. You may need to add 'tumaj-api.medicore360.icu' to ALLOWED_HOSTS.
+WARNING 2025-04-08 03:55:48,568 log Bad Request: /
+WARNING 2025-04-08 04:21:11,150 log Not Found: /
+ERROR 2025-04-08 05:09:34,412 exception Invalid HTTP_HOST header: 'cjpaints.lijohtechdevelopers.co.ke'. You may need to add 'cjpaints.lijohtechdevelopers.co.ke' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'cjpaints.lijohtechdevelopers.co.ke'. You may need to add 'cjpaints.lijohtechdevelopers.co.ke' to ALLOWED_HOSTS.
+WARNING 2025-04-08 05:09:34,736 log Bad Request: /
+ERROR 2025-04-08 05:10:07,656 exception Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 05:10:08,644 log Bad Request: /
+ERROR 2025-04-08 05:10:28,449 exception Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+WARNING 2025-04-08 05:10:28,507 log Bad Request: /
+ERROR 2025-04-08 05:10:35,613 exception Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+WARNING 2025-04-08 05:10:35,678 log Bad Request: /443
+ERROR 2025-04-08 05:54:26,480 exception Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 05:54:26,934 log Bad Request: /
+WARNING 2025-04-08 05:55:07,142 log Not Found: /
+ERROR 2025-04-08 06:01:09,782 exception Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 06:01:09,825 log Bad Request: /favicon.ico
+WARNING 2025-04-08 06:32:21,671 log Not Found: /db/schema.rb
+WARNING 2025-04-08 06:32:22,074 log Not Found: /secrets.json
+WARNING 2025-04-08 06:32:22,081 log Not Found: /.vscode/sftp.json
+WARNING 2025-04-08 06:32:22,091 log Not Found: /config.json
+WARNING 2025-04-08 06:32:22,250 log Not Found: /.aws/credentials
+WARNING 2025-04-08 06:32:22,347 log Not Found: /server.key
+WARNING 2025-04-08 06:32:22,369 log Not Found: /docker-compose.yml
+WARNING 2025-04-08 06:32:22,372 log Not Found: /feed
+WARNING 2025-04-08 06:32:22,375 log Not Found: /settings.py
+WARNING 2025-04-08 06:32:22,320 log Not Found: /config.php
+WARNING 2025-04-08 06:32:22,380 log Not Found: /wp-admin/setup-config.php
+WARNING 2025-04-08 06:32:22,388 log Not Found: /_vti_pvt/service.pwd
+WARNING 2025-04-08 06:32:22,389 log Not Found: /web.config
+WARNING 2025-04-08 06:32:22,393 log Not Found: /.svn/wc.db
+WARNING 2025-04-08 06:32:22,396 log Not Found: /config/production.json
+WARNING 2025-04-08 06:32:22,402 log Not Found: /phpinfo.php
+WARNING 2025-04-08 06:32:22,405 log Not Found: /database_backup.sql
+WARNING 2025-04-08 06:32:22,407 log Not Found: /wp-config.php
+WARNING 2025-04-08 06:32:22,409 log Not Found: /backup.sql
+WARNING 2025-04-08 06:32:22,411 log Not Found: /server-status
+WARNING 2025-04-08 06:32:22,411 log Not Found: /.env.production
+WARNING 2025-04-08 06:32:22,413 log Not Found: /
+WARNING 2025-04-08 06:32:22,415 log Not Found: /api/.env
+WARNING 2025-04-08 06:32:22,417 log Not Found: /dump.sql
+WARNING 2025-04-08 06:32:22,419 log Not Found: /etc/ssl/private/server.key
+WARNING 2025-04-08 06:32:22,421 log Not Found: /database.sql
+WARNING 2025-04-08 06:32:22,423 log Not Found: /config.yml
+WARNING 2025-04-08 06:32:22,426 log Not Found: /.ssh/id_rsa
+WARNING 2025-04-08 06:32:22,427 log Not Found: /config.xml
+WARNING 2025-04-08 06:32:22,429 log Not Found: /.ssh/id_ed25519
+WARNING 2025-04-08 06:32:22,430 log Not Found: /cloud-config.yml
+WARNING 2025-04-08 06:32:22,435 log Not Found: /config.yaml
+WARNING 2025-04-08 06:32:22,439 log Not Found: /.git/HEAD
+WARNING 2025-04-08 06:32:22,442 log Not Found: /.env
+WARNING 2025-04-08 06:32:22,442 log Not Found: /user_secrets.yml
+WARNING 2025-04-08 06:32:22,454 log Not Found: /.ssh/id_ecdsa
+ERROR 2025-04-08 06:46:32,537 exception Invalid HTTP_HOST header: '38.242.159.231'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 06:46:32,675 log Bad Request: /
+ERROR 2025-04-08 07:00:13,075 exception Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 07:00:13,123 log Bad Request: /
+ERROR 2025-04-08 08:51:08,109 exception Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 08:51:08,215 log Bad Request: /
+ERROR 2025-04-08 08:51:11,253 exception Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 08:51:11,291 log Bad Request: /favicon.ico
+ERROR 2025-04-08 08:51:13,271 exception Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 08:51:13,391 log Bad Request: /robots.txt
+ERROR 2025-04-08 08:51:13,301 exception Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+  File "/home/talenthubkenya-api/venv/lib/python3.10/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '38.242.159.231:8000'. You may need to add '38.242.159.231' to ALLOWED_HOSTS.
+WARNING 2025-04-08 08:51:13,715 log Bad Request: /sitemap.xml
